@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <ihealthlabs.progressdemo.widgets.RectangleLoading
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            custom:lineWidth="2dp"
+            custom:loadingColor="#ff6633"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#ff6633"
+            android:layout_gravity="center"
+            android:text="正\n方\n形"/>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <ihealthlabs.progressdemo.widgets.TriangleLoading
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            custom:lineWidth="2dp"
+            custom:loadingColor="#ff6633" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="三\n角\n形"
+            android:textColor="#ff6633"
+            android:textSize="10dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <ihealthlabs.progressdemo.widgets.CircleLoading
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            custom:lineWidth="2dp"
+            custom:loadingColor="#ff6633"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#ff6633"
+            android:layout_gravity="center"
+            android:text="圆\n形"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <ihealthlabs.progressdemo.widgets.MutiangleLoading
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            custom:lineWidth="2dp"
+            custom:loadingColor="#ff6633"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="#ff6633"
+            android:layout_gravity="center"
+            android:text="多\n边\n形"/>
+    </FrameLayout>
+</LinearLayout>
